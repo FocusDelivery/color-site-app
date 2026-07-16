@@ -21,8 +21,8 @@ export function Wordmark({ className = "" }: { className?: string }) {
     <a href="#top" className={`flex items-center gap-2 group ${className}`}>
       <RainbowLogo className="w-9 h-6 transition-transform duration-500 group-hover:-rotate-6" />
       <span className="font-display text-xl md:text-2xl font-bold leading-none">
-        <span className="text-white">Universo</span>{" "}
-        <span className="gold">das Cores</span>
+        <span className="text-white">Patolino</span>
+        <span className="gold">Play</span>
       </span>
     </a>
   );

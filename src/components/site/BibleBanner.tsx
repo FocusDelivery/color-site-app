@@ -7,7 +7,7 @@ export default function BibleBanner() {
         <div className="relative rounded-[28px] overflow-hidden border border-white/10 shadow-[0_40px_100px_-30px_rgba(139,92,246,0.6)] group">
           <img
             src={bibleWorlds}
-            alt="Desenhos da Bíblia e muitos outros mundos no Universo das Cores"
+            alt="Desenhos da Bíblia e muitos outros mundos no PatolinoPlay"
             width={1600}
             height={640}
             loading="lazy"

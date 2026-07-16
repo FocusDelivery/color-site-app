@@ -77,10 +77,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Universo das Cores — O app de colorir mais divertido para crianças" },
+      { title: "PatolinoPlay — O app de colorir mais divertido para crianças" },
       { name: "description", content: "Pinte online, assine com o próprio nome, baixe, imprima e transforme artes em ebooks. Uma experiência infantil segura, criativa e divertida." },
-      { name: "author", content: "Universo das Cores" },
-      { property: "og:title", content: "Universo das Cores — App infantil de colorir" },
+      { name: "author", content: "PatolinoPlay" },
+      { property: "og:title", content: "PatolinoPlay — App infantil de colorir" },
       { property: "og:description", content: "Pinte online, assine, baixe, imprima e crie ebooks. 100% seguro e sem anúncios." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
