@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const items = [
   { q: "O app tem vídeos?", a: "Não. A proposta principal é colorir online, assinar, baixar, imprimir e criar ebooks. Tudo focado em criatividade ativa, sem vídeos passivos." },
-  { q: "Funciona no celular?", a: "Sim. O Universo das Cores funciona em qualquer aparelho com navegador moderno: celular, tablet ou computador, sem precisar instalar nada." },
+  { q: "Funciona no celular?", a: "Sim. O PatolinoPlay funciona em qualquer aparelho com navegador moderno: celular, tablet ou computador, sem precisar instalar nada." },
   { q: "A criança pode imprimir?", a: "Sim! Todas as artes podem ser baixadas em alta qualidade para impressão em casa, montando um caderno físico de obras de arte." },
   { q: "Como acesso após comprar?", a: "Após a assinatura, você recebe imediatamente o acesso por e-mail. É só entrar na plataforma pelo navegador e começar a colorir." },
   { q: "O conteúdo é realmente seguro?", a: "Sim. Não há anúncios, links externos nem redes sociais. Todo o conteúdo é autoral, revisado e pensado para o público infantil." },

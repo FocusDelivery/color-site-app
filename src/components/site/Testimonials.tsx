@@ -1,6 +1,6 @@
 const testimonials = [
   { name: "Camila R.", role: "Mãe da Laura, 5 anos", text: "Minha filha pede para 'pintar no app' todo dia. Imprimimos as obras e montamos um caderno que ela leva para a escola. Lindo demais!", avatar: "👩" },
-  { name: "Rodrigo M.", role: "Pai do Theo, 7 anos", text: "Troquei a televisão pelo Universo das Cores e a diferença na criatividade dele é enorme. Vale cada centavo.", avatar: "👨🏽" },
+  { name: "Rodrigo M.", role: "Pai do Theo, 7 anos", text: "Troquei a televisão pelo PatolinoPlay e a diferença na criatividade dele é enorme. Vale cada centavo.", avatar: "👨🏽" },
   { name: "Juliana S.", role: "Mãe da Alice e do Bento", text: "Dois filhos, um só acesso. Os desenhos da Bíblia são os favoritos aqui em casa. Conteúdo seguro e sem anúncios. Nota 10!", avatar: "👩🏽" },
   { name: "Patrícia L.", role: "Professora de Ed. Infantil", text: "Uso como atividade complementar na turma. As crianças amam os mundos e eu amo a facilidade de imprimir.", avatar: "👩🏻‍🏫" },
   { name: "Fernanda O.", role: "Mãe da Helena, 4 anos", text: "O ebook personalizado com o nome dela virou presente de aniversário. Chorei de emoção.", avatar: "👩🏾" },

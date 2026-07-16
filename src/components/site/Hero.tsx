@@ -60,7 +60,7 @@ export default function Hero() {
             <div className="relative rounded-3xl overflow-hidden border border-white/10 shadow-[0_40px_120px_-20px_rgba(139,92,246,0.55)] tilt">
               <img
                 src={heroKids}
-                alt="Criança colorindo com personagens divertidos no Universo das Cores"
+                alt="Criança colorindo com personagens divertidos no PatolinoPlay"
                 width={1200}
                 height={900}
                 className="w-full h-auto block"

@@ -8,7 +8,7 @@ export default function Footer() {
           <div className="md:col-span-2">
             <Wordmark />
             <p className="mt-4 text-white/60 text-sm max-w-md leading-relaxed">
-              O Universo das Cores é um app infantil seguro, criativo e divertido.
+              O PatolinoPlay é um app infantil seguro, criativo e divertido.
               Feito com carinho para famílias que acreditam que colorir é também aprender,
               imaginar e criar memórias.
             </p>
@@ -39,7 +39,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 pt-6 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-white/50">
-          <div>© {new Date().getFullYear()} Universo das Cores — Todos os direitos reservados.</div>
+          <div>© {new Date().getFullYear()} PatolinoPlay — Todos os direitos reservados.</div>
           <div>Soluções digitais práticas para evolução pessoal e profissional.</div>
         </div>
       </div>
