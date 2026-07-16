@@ -1,24 +1,41 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { useEffect } from "react";
+import { useReveal } from "@/lib/useReveal";
+import Navbar from "@/components/site/Navbar";
+import Hero from "@/components/site/Hero";
+import Premium from "@/components/site/Premium";
+import BibleBanner from "@/components/site/BibleBanner";
+import Worlds from "@/components/site/Worlds";
+import ParentsSection from "@/components/site/ParentsSection";
+import Testimonials from "@/components/site/Testimonials";
+import FAQ from "@/components/site/FAQ";
+import FinalCTA from "@/components/site/FinalCTA";
+import Footer from "@/components/site/Footer";
 
-// No head() here: the home route inherits title/description/og/twitter from
-// __root.tsx, and ships no og:image so serve-time hosting can inject the
-// project's social preview (explicit og:image or latest screenshot).
 export const Route = createFileRoute("/")({
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
+  useReveal();
+  useEffect(() => {
+    document.body.classList.add("uc-body");
+    return () => document.body.classList.remove("uc-body");
+  }, []);
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
+    <div className="cosmic grain relative">
+      <Navbar />
+      <main>
+        <Hero />
+        <Premium />
+        <BibleBanner />
+        <Worlds />
+        <ParentsSection />
+        <Testimonials />
+        <FAQ />
+        <FinalCTA />
+      </main>
+      <Footer />
     </div>
   );
 }
