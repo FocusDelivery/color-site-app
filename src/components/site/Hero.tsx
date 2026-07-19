@@ -1,4 +1,4 @@
-import heroKids from "@/assets/hero-kids.jpg";
+import heroKids from "@/assets/hero-kids.png";
 
 export default function Hero() {
   return (
