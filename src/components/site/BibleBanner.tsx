@@ -30,18 +30,18 @@ export default function BibleBanner() {
               </ul>
             </div>
             <div className="bg-white/95 backdrop-blur rounded-2xl p-5 md:p-6 shadow-xl max-w-xs w-full">
-              <div className="text-[11px] uppercase tracking-widest text-neutral-500">Assinatura anual</div>
+              <div className="text-[11px] uppercase tracking-widest text-neutral-500">Pagamento único</div>
               <div className="flex items-baseline gap-2 mt-1">
-                <span className="text-neutral-500 line-through text-sm">R$ 19,90/mês</span>
+                <span className="text-neutral-500 line-through text-sm">R$ 59,90</span>
               </div>
               <div className="flex items-baseline gap-1">
                 <span className="text-neutral-500 text-lg">R$</span>
                 <span className="font-display font-bold text-5xl text-[#6d28d9] leading-none">19</span>
                 <span className="font-display font-bold text-2xl text-[#6d28d9]">,90</span>
               </div>
-              <div className="text-xs text-neutral-500 mt-1">Acesso imediato • Cancele quando quiser</div>
+              <div className="text-xs text-neutral-500 mt-1">Acesso imediato</div>
               <a href="#comecar" className="btn-primary w-full mt-4 rounded-xl py-3 text-sm inline-flex items-center justify-center gap-2">
-                🔒 QUERO ASSINAR AGORA!
+                🔒 COMPRAR AGORA!
               </a>
               <div className="mt-3 flex items-center justify-between text-[10px] text-neutral-600">
                 <span>✓ 100% seguro</span>
