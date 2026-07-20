@@ -69,7 +69,7 @@ export default function ParentsSection() {
               </div>
 
               <a href="#comecar" className="btn-primary w-full mt-6 rounded-2xl py-4 text-base inline-flex items-center justify-center gap-2 pulse-glow">
-                ASSINAR AGORA <span>→</span>
+                COMECE AGORA <span>→</span>
               </a>
 
               <div className="mt-4 grid grid-cols-2 gap-2 text-[11px] text-white/70">
