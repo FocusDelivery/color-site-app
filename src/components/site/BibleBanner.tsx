@@ -1,4 +1,4 @@
-import bibleWorlds from "@/assets/bible-worlds.jpg";
+import bibleWorlds from "@/assets/bible-worlds.png";
 
 export default function BibleBanner() {
   return (
