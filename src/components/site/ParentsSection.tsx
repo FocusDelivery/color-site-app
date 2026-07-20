@@ -58,7 +58,7 @@ export default function ParentsSection() {
               <div className="mt-5 grid grid-cols-3 gap-2 text-center">
                 {[
                   { icon: "🚀", label: "Acesso imediato" },
-                  { icon: "👑", label: "Assinatura anual" },
+                  { icon: "👑", label: "Pagamento único" },
                   { icon: "🎁", label: "Novos desenhos toda semana" },
                 ].map((p,i)=>(
                   <div key={i} className="rounded-xl bg-white/5 border border-white/10 p-2">
