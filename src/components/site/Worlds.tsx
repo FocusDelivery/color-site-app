@@ -1,10 +1,10 @@
 const worlds = [
-  { name: "Mundo dos Blocos", desc: "Construções, aventuras e personagens quadradinhos.", emoji: "🧱", grad: "from-blue-500 via-sky-400 to-cyan-400" },
-  { name: "Reino Encantado", desc: "Castelos, dragões, fadas e criaturas mágicas.", emoji: "🏰", grad: "from-pink-500 via-rose-500 to-orange-400" },
-  { name: "Ilha dos Inventores", desc: "Robôs, máquinas, laboratórios e invenções criativas.", emoji: "🤖", grad: "from-emerald-400 via-teal-400 to-cyan-500" },
-  { name: "Dino Aventura", desc: "Dinossauros fofos e exploradores mirins.", emoji: "🦖", grad: "from-orange-400 via-amber-400 to-fuchsia-500" },
-  { name: "Histórias Sagradas", desc: "Bíblia, parábolas e valores cristãos para colorir.", emoji: "✝️", grad: "from-violet-500 via-purple-500 to-indigo-500" },
-  { name: "Fundo do Mar", desc: "Peixes, corais e criaturas marinhas coloridas.", emoji: "🐠", grad: "from-cyan-400 via-blue-500 to-indigo-600" },
+  { name: "Reino das Cores Kids", desc: "Personagens fofos, arco-íris e muita criatividade para os pequenos.", emoji: "🎨", grad: "from-pink-500 via-rose-400 to-orange-400" },
+  { name: "Roblox", desc: "Aventuras em blocos com seus personagens favoritos do jogo.", emoji: "🎮", grad: "from-red-500 via-rose-500 to-red-600" },
+  { name: "Dragon Ball Z", desc: "Guerreiros Z, energia e batalhas épicas para colorir.", emoji: "🐉", grad: "from-orange-500 via-amber-400 to-yellow-400" },
+  { name: "Cavaleiros do Zodíaco", desc: "Armaduras sagradas e heróis lendários dos doze signos.", emoji: "⚔️", grad: "from-yellow-400 via-amber-500 to-orange-500" },
+  { name: "Minecraft", desc: "Mundos em blocos, criaturas e construções infinitas.", emoji: "⛏️", grad: "from-emerald-500 via-green-500 to-lime-500" },
+  { name: "Copa do Mundo", desc: "Craques, estádios e a magia do futebol para pintar.", emoji: "⚽", grad: "from-green-500 via-teal-500 to-blue-600" },
 ];
 
 export default function Worlds() {
