@@ -52,13 +52,13 @@ export default function ParentsSection() {
                 <span className="text-white/70 text-xl">R$</span>
                 <span className="font-display font-bold text-7xl text-white leading-none drop-shadow-[0_6px_20px_rgba(255,204,51,0.35)]">19</span>
                 <span className="font-display font-bold text-3xl text-white">,90</span>
-                <span className="text-white/60 text-sm mb-2">Pagamento Único</span>
+                <span className="text-white/60 text-sm mb-2">Pagamento Mensal</span>
               </div>
 
               <div className="mt-5 grid grid-cols-3 gap-2 text-center">
                 {[
                   { icon: "🚀", label: "Acesso imediato" },
-                  { icon: "👑", label: "Pagamento único" },
+                  { icon: "👑", label: "Pagamento mensal" },
                   { icon: "🎁", label: "Novos desenhos toda semana" },
                 ].map((p,i)=>(
                   <div key={i} className="rounded-xl bg-white/5 border border-white/10 p-2">
