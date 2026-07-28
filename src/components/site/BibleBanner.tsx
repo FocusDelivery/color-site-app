@@ -30,7 +30,7 @@ export default function BibleBanner() {
               </ul>
             </div>
             <div className="bg-white/95 backdrop-blur rounded-2xl p-5 md:p-6 shadow-xl max-w-xs w-full">
-              <div className="text-[11px] uppercase tracking-widest text-neutral-500">R$ 12,90 /Mês</div>
+              <div className="text-[11px] uppercase tracking-widest text-neutral-500">Pagamento Mensal</div>
               <div className="flex items-baseline gap-2 mt-1">
                 <span className="text-neutral-500 line-through text-sm">R$ 37,90</span>
               </div>
