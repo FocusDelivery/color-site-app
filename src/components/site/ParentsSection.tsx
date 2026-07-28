@@ -50,7 +50,7 @@ export default function ParentsSection() {
               </div>
               <div className="flex items-baseline gap-1 mt-1">
                 <span className="text-white/70 text-xl">R$</span>
-                <span className="font-display font-bold text-7xl text-white leading-none drop-shadow-[0_6px_20px_rgba(255,204,51,0.35)]">19</span>
+                <span className="font-display font-bold text-7xl text-white leading-none drop-shadow-[0_6px_20px_rgba(255,204,51,0.35)]">12</span>
                 <span className="font-display font-bold text-3xl text-white">,90</span>
                 <span className="text-white/60 text-sm mb-2">Pagamento Mensal</span>
               </div>
