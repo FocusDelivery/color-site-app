@@ -41,7 +41,7 @@ export default function BibleBanner() {
               </div>
               <div className="text-xs text-neutral-500 mt-1">Acesso imediato</div>
               <a href="#comecar" className="btn-primary w-full mt-4 rounded-xl py-3 text-sm inline-flex items-center justify-center gap-2">
-                🔒 COMPRAR AGORA!
+                🔒 COMEÇAR AGORA!
               </a>
               <div className="mt-3 flex items-center justify-between text-[10px] text-neutral-600">
                 <span>✓ 100% seguro</span>
