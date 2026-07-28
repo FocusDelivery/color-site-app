@@ -44,10 +44,8 @@ export default function ParentsSection() {
           <div className="relative mx-auto max-w-md">
             <div className="absolute -inset-4 rounded-[32px] bg-gradient-to-tr from-yellow-400/30 via-pink-500/30 to-violet-500/40 blur-2xl" />
             <div className="relative rounded-[28px] border border-white/15 bg-gradient-to-b from-[#1a0a3d] to-[#0b0420] p-6 md:p-8 shadow-[0_40px_120px_-20px_rgba(255,79,163,0.5)]">
-              <div className="flex items-center justify-between">
-                <div className="text-xs uppercase tracking-widest text-yellow-300 font-bold">Promoção de lançamento</div>
-                <div className="text-xs chip rounded-full px-2 py-1">-83%</div>
-              </div>
+              <div className="text-xs uppercase tracking-widest text-yellow-300 font-bold">Promoção de lançamento</div>
+
               <div className="flex items-baseline gap-1 mt-1">
                 <span className="text-white/70 text-xl">R$</span>
                 <span className="font-display font-bold text-7xl text-white leading-none drop-shadow-[0_6px_20px_rgba(255,204,51,0.35)]">12</span>
