@@ -1,4 +1,5 @@
-import { Palette, Blocks, Flame, Swords, Pickaxe, Trophy, LucideIcon } from "lucide-react";
+import { Palette, Blocks, Flame, Swords, Pickaxe, Trophy } from "lucide-react";
+import type { LucideIcon } from "lucide-react";
 
 const worlds: { name: string; desc: string; icon: LucideIcon; grad: string }[] = [
   { name: "Reino das Cores Kids", desc: "Embarque na maior aventura da Bíblia, colorir a Arca de Noé com todos os seus animais favoritos.", icon: Palette, grad: "from-pink-500 via-rose-400 to-orange-400" },
