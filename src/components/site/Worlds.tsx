@@ -1,5 +1,5 @@
 const worlds = [
-  { name: "Reino das Cores Kids", desc: "Personagens fofos, arco-íris e muita criatividade para os pequenos.", emoji: "🎨", grad: "from-pink-500 via-rose-400 to-orange-400" },
+  { name: "Reino das Cores Kids", desc: "Embarque na maior aventura da Bíblia, colorir a Arca de Noé com todos os seus animais favoritos.", emoji: "🎨", grad: "from-pink-500 via-rose-400 to-orange-400" },
   { name: "Roblox", desc: "Aventuras em blocos com seus personagens favoritos do jogo.", emoji: "🎮", grad: "from-red-500 via-rose-500 to-red-600" },
   { name: "Dragon Ball Z", desc: "Guerreiros Z, energia e batalhas épicas para colorir.", emoji: "🐉", grad: "from-orange-500 via-amber-400 to-yellow-400" },
   { name: "Cavaleiros do Zodíaco", desc: "Armaduras sagradas e heróis lendários dos doze signos.", emoji: "⚔️", grad: "from-yellow-400 via-amber-500 to-orange-500" },
