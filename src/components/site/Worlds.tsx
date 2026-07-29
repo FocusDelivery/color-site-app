@@ -38,7 +38,9 @@ export default function Worlds() {
                 backgroundSize: "40px 40px, 60px 60px"
               }} />
               <div className="relative">
-                <div className="text-5xl mb-4 transition-transform duration-500 group-hover:scale-125 group-hover:-rotate-12 inline-block">{w.emoji}</div>
+                <div className="mb-5 inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-white/20 backdrop-blur-sm shadow-lg transition-all duration-500 group-hover:scale-110 group-hover:rotate-3 group-hover:shadow-white/30">
+                  <w.icon size={40} strokeWidth={1.5} className="text-white drop-shadow-md" />
+                </div>
                 <h3 className="font-display font-bold text-2xl text-white drop-shadow">{w.name}</h3>
                 <p className="mt-2 text-white/90 text-sm leading-relaxed drop-shadow">{w.desc}</p>
                 <div className="mt-5 inline-flex items-center gap-2 text-white font-semibold text-sm opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-500">
