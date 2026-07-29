@@ -1,10 +1,13 @@
-const worlds = [
-  { name: "Reino das Cores Kids", desc: "Embarque na maior aventura da Bíblia, colorir a Arca de Noé com todos os seus animais favoritos.", emoji: "🎨", grad: "from-pink-500 via-rose-400 to-orange-400" },
-  { name: "Roblox", desc: "Aventuras em blocos com seus personagens favoritos do jogo.", emoji: "🎮", grad: "from-red-500 via-rose-500 to-red-600" },
-  { name: "Dragon Ball Z", desc: "Guerreiros Z, energia e batalhas épicas para colorir.", emoji: "🐉", grad: "from-orange-500 via-amber-400 to-yellow-400" },
-  { name: "Cavaleiros do Zodíaco", desc: "Armaduras sagradas e heróis lendários dos doze signos.", emoji: "⚔️", grad: "from-yellow-400 via-amber-500 to-orange-500" },
-  { name: "Minecraft", desc: "Mundos em blocos, criaturas e construções infinitas.", emoji: "⛏️", grad: "from-emerald-500 via-green-500 to-lime-500" },
-  { name: "Copa do Mundo", desc: "Craques, estádios e a magia do futebol para pintar.", emoji: "⚽", grad: "from-green-500 via-teal-500 to-blue-600" },
+import { Palette, Blocks, Flame, Swords, Pickaxe, Trophy } from "lucide-react";
+import type { LucideIcon } from "lucide-react";
+
+const worlds: { name: string; desc: string; icon: LucideIcon; grad: string }[] = [
+  { name: "Reino das Cores Kids", desc: "Embarque na maior aventura da Bíblia, colorir a Arca de Noé com todos os seus animais favoritos.", icon: Palette, grad: "from-pink-500 via-rose-400 to-orange-400" },
+  { name: "Roblox", desc: "Aventuras em blocos com seus personagens favoritos do jogo.", icon: Blocks, grad: "from-red-500 via-rose-500 to-red-600" },
+  { name: "Dragon Ball Z", desc: "Guerreiros Z, energia e batalhas épicas para colorir.", icon: Flame, grad: "from-orange-500 via-amber-400 to-yellow-400" },
+  { name: "Cavaleiros do Zodíaco", desc: "Armaduras sagradas e heróis lendários dos doze signos.", icon: Swords, grad: "from-yellow-400 via-amber-500 to-orange-500" },
+  { name: "Minecraft", desc: "Mundos em blocos, criaturas e construções infinitas.", icon: Pickaxe, grad: "from-emerald-500 via-green-500 to-lime-500" },
+  { name: "Copa do Mundo", desc: "Craques, estádios e a magia do futebol para pintar.", icon: Trophy, grad: "from-green-500 via-teal-500 to-blue-600" },
 ];
 
 export default function Worlds() {
@@ -36,7 +39,9 @@ export default function Worlds() {
                 backgroundSize: "40px 40px, 60px 60px"
               }} />
               <div className="relative">
-                <div className="text-5xl mb-4 transition-transform duration-500 group-hover:scale-125 group-hover:-rotate-12 inline-block">{w.emoji}</div>
+                <div className="mb-5 inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-white/20 backdrop-blur-sm shadow-lg transition-all duration-500 group-hover:scale-110 group-hover:rotate-3 group-hover:shadow-white/30">
+                  <w.icon size={40} strokeWidth={1.5} className="text-white drop-shadow-md" />
+                </div>
                 <h3 className="font-display font-bold text-2xl text-white drop-shadow">{w.name}</h3>
                 <p className="mt-2 text-white/90 text-sm leading-relaxed drop-shadow">{w.desc}</p>
                 <div className="mt-5 inline-flex items-center gap-2 text-white font-semibold text-sm opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-500">
