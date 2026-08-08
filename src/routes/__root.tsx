@@ -80,10 +80,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "PatolinoPlay — O app de colorir mais divertido para crianças" },
       { name: "description", content: "Pinte online, assine com o próprio nome, baixe, imprima e transforme artes em ebooks. Uma experiência infantil segura, criativa e divertida." },
       { name: "author", content: "PatolinoPlay" },
-      { property: "og:title", content: "PatolinoPlay — App infantil de colorir" },
-      { property: "og:description", content: "Pinte online, assine, baixe, imprima e crie ebooks. 100% seguro e sem anúncios." },
+      { property: "og:title", content: "PatolinoPlay — O app de colorir mais divertido para crianças" },
+      { property: "og:description", content: "Pinte online, assine com o próprio nome, baixe, imprima e transforme artes em ebooks. Uma experiência infantil segura, criativa e divertida." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "PatolinoPlay — O app de colorir mais divertido para crianças" },
+      { name: "twitter:description", content: "Pinte online, assine com o próprio nome, baixe, imprima e transforme artes em ebooks. Uma experiência infantil segura, criativa e divertida." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/b74943d1-bd74-4fdc-8e6d-ff9662e3ac0e/id-preview-19beb925--a434fac6-21ed-4cb9-ab64-90508473aa60.lovable.app-1785287094018.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/b74943d1-bd74-4fdc-8e6d-ff9662e3ac0e/id-preview-19beb925--a434fac6-21ed-4cb9-ab64-90508473aa60.lovable.app-1785287094018.png" },
     ],
     links: [
       {
