@@ -27,7 +27,7 @@ export default function Hero() {
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-3">
-            <a href="https://go.perfectpay.com.br/PPU38CQESG3" target="_blank" rel="noopener noreferrer" className="btn-primary rounded-full px-7 py-4 text-base inline-flex items-center gap-2 pulse-glow">
+            <a href="https://go.perfectpay.com.br/PPU38CQESG3" className="btn-primary rounded-full px-7 py-4 text-base inline-flex items-center gap-2 pulse-glow">
               COMECE AGORA <span aria-hidden>→</span>
             </a>
             <a href="#recursos" className="btn-ghost rounded-full px-7 py-4 text-base font-semibold inline-flex items-center gap-2">

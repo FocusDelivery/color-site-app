@@ -40,7 +40,7 @@ export default function BibleBanner() {
                 <span className="font-display font-bold text-2xl text-[#6d28d9]">,90</span>
               </div>
               <div className="text-xs text-neutral-500 mt-1">Acesso imediato</div>
-              <a href="https://go.perfectpay.com.br/PPU38CQESG3" target="_blank" rel="noopener noreferrer" className="btn-primary w-full mt-4 rounded-xl py-3 text-sm inline-flex items-center justify-center gap-2">
+              <a href="https://go.perfectpay.com.br/PPU38CQESG3" className="btn-primary w-full mt-4 rounded-xl py-3 text-sm inline-flex items-center justify-center gap-2">
                 🔒 COMEÇAR AGORA!
               </a>
               <div className="mt-3 flex items-center justify-between text-[10px] text-neutral-600">
