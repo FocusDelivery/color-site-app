@@ -28,7 +28,7 @@ export default function Navbar() {
         </nav>
         <a
           href="https://go.perfectpay.com.br/PPU38CQESG3"
-          target="_self"
+          target="_top"
           rel="noopener noreferrer"
           className="btn-primary rounded-full px-5 py-2.5 text-sm inline-flex items-center gap-2"
         >
