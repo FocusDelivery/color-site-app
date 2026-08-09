@@ -66,7 +66,7 @@ export default function ParentsSection() {
                 ))}
               </div>
 
-              <a href="https://go.perfectpay.com.br/PPU38CQESG3" target="_top" rel="noopener noreferrer" className="btn-primary w-full mt-6 rounded-2xl py-4 text-base inline-flex items-center justify-center gap-2 pulse-glow">
+              <a href="https://go.perfectpay.com.br/PPU38CQESG3" className="btn-primary w-full mt-6 rounded-2xl py-4 text-base inline-flex items-center justify-center gap-2 pulse-glow">
                 COMECE AGORA <span>→</span>
               </a>
 
