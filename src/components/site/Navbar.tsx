@@ -27,7 +27,7 @@ export default function Navbar() {
           <a href="#faq" className="hover:text-white transition">Dúvidas</a>
         </nav>
         <a
-          href="#comecar"
+          href="https://go.perfectpay.com.br/PPU38CQE8L6"
           className="btn-primary rounded-full px-5 py-2.5 text-sm inline-flex items-center gap-2"
         >
           Começar Agora
