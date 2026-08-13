@@ -30,6 +30,8 @@ export default function Hero() {
             <a 
               href="https://go.perfectpay.com.br/PPU38CQESG3" 
               className="btn-primary rounded-full px-7 py-4 text-base inline-flex items-center gap-2 pulse-glow"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               COMECE AGORA <span aria-hidden>→</span>
             </a>
