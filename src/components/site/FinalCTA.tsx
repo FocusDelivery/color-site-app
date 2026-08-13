@@ -16,7 +16,12 @@ export default function FinalCTA() {
             <p className="mt-4 text-white/80 max-w-xl mx-auto">
               Uma experiência visual premium para crianças criarem, pintarem e se divertirem com segurança.
             </p>
-            <a href="https://go.perfectpay.com.br/PPU38CQESG3" className="btn-primary mt-6 inline-flex items-center gap-2 rounded-full px-8 py-4 text-base pulse-glow">
+            <a 
+              href="https://go.perfectpay.com.br/PPU38CQESG3" 
+              className="btn-primary mt-6 inline-flex items-center gap-2 rounded-full px-8 py-4 text-base pulse-glow"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               COMEÇAR AGORA <span>→</span>
             </a>
           </div>
