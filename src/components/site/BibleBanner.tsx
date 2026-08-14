@@ -43,8 +43,10 @@ export default function BibleBanner() {
               <a 
                 href="https://go.perfectpay.com.br/PPU38CQESG3" 
                 className="btn-primary w-full mt-4 rounded-xl py-3 text-sm inline-flex items-center justify-center gap-2"
-                target="_blank"
-                rel="noopener noreferrer"
+                onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href = "https://go.perfectpay.com.br/PPU38CQESG3";
+                }}
               >
                 🔒 COMEÇAR AGORA!
               </a>
