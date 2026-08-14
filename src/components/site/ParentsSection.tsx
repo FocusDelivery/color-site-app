@@ -69,10 +69,8 @@ export default function ParentsSection() {
               <a 
                 href="https://go.perfectpay.com.br/PPU38CQESG3" 
                 className="btn-primary w-full mt-6 rounded-2xl py-4 text-base inline-flex items-center justify-center gap-2 pulse-glow"
-                onClick={(e) => {
-                  e.preventDefault();
-                  window.location.href = "https://go.perfectpay.com.br/PPU38CQESG3";
-                }}
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 COMECE AGORA <span>→</span>
               </a>

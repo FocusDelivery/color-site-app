@@ -19,10 +19,8 @@ export default function FinalCTA() {
             <a 
               href="https://go.perfectpay.com.br/PPU38CQESG3" 
               className="btn-primary mt-6 inline-flex items-center gap-2 rounded-full px-8 py-4 text-base pulse-glow"
-              onClick={(e) => {
-                e.preventDefault();
-                window.location.href = "https://go.perfectpay.com.br/PPU38CQESG3";
-              }}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               COMEÇAR AGORA <span>→</span>
             </a>
